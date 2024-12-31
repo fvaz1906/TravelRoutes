@@ -115,7 +115,7 @@ Exemplo de Resposta:
 
 O arquivo CSV que armazena as rotas pode ser encontrado em TravelRoutes.Shared/rotas.csv. Este arquivo pode ser modificado manualmente ou por meio da API, utilizando o endpoint register.
 
-## Estrutura do CSV
+### Estrutura do CSV
 
 O arquivo CSV possui a seguinte estrutura:
 
@@ -127,3 +127,44 @@ A,C,25
 ```
 
 Cada linha representa uma rota com origem, destino e valor associado.
+
+## Como Executar a Aplicação de Console
+
+A aplicação de console oferece uma interface simples para registrar rotas e consultar a melhor rota entre dois pontos.
+
+### Passos para Executar a Aplicação de Console
+
+1. **No terminal, navegue até a pasta TravelRoutes**:
+
+```bash
+cd TravelRoutes
+```
+
+Obs. Será necessário compilar o projeto para gerar o executável.
+
+```bash
+dotnet build
+```
+
+Na Raiz do Projeto, Acessar o caminho:
+
+```bash
+cd .\bin\Debug\net8.0\
+```
+
+Executar a aplicação:
+
+```bash
+.\TravelRoutes.exe ..\..\..\..\TravelRoutes.Shared\rotas.csv
+```
+
+Resposta esperada:
+
+```bash
+Enter origin:
+GRU
+Enter destination:
+CDG
+Best route: GRU - BRC - SCL - ORL - CDG at a cost of $40
+```
+
