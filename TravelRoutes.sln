@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelRoutes", "TravelRoutes\TravelRoutes.csproj", "{A36E93D5-A9FC-46AB-B0F9-A772578B2B50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelRoutes.API", "TravelRoutes.API\TravelRoutes.API.csproj", "{8572D2D4-A7E0-45E6-BA9E-BDE5F06C7B51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelRoutes.Tests", "TravelRoutes.Tests\TravelRoutes.Tests.csproj", "{5FB53B94-35E7-4058-B149-261BE159F22D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A36E93D5-A9FC-46AB-B0F9-A772578B2B50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A36E93D5-A9FC-46AB-B0F9-A772578B2B50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A36E93D5-A9FC-46AB-B0F9-A772578B2B50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A36E93D5-A9FC-46AB-B0F9-A772578B2B50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8572D2D4-A7E0-45E6-BA9E-BDE5F06C7B51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8572D2D4-A7E0-45E6-BA9E-BDE5F06C7B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8572D2D4-A7E0-45E6-BA9E-BDE5F06C7B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8572D2D4-A7E0-45E6-BA9E-BDE5F06C7B51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FB53B94-35E7-4058-B149-261BE159F22D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FB53B94-35E7-4058-B149-261BE159F22D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FB53B94-35E7-4058-B149-261BE159F22D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FB53B94-35E7-4058-B149-261BE159F22D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

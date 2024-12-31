@@ -1,0 +1,18 @@
+@TravelRoutes.API_HostAddress = https://localhost:7043
+
+### Registrar nova rota
+POST {{TravelRoutes.API_HostAddress}}/api/routes/register
+Content-Type: application/json
+Accept: application/json
+
+{
+  "routeOrigin": "GRU",
+  "routeDestination": "BRC",
+  "value": 10
+}
+
+###
+
+### Consultar melhor rota
+GET {{TravelRoutes.API_HostAddress}}/api/routes/best?origin=GRU&destination=CDG
+Accept: application/json
