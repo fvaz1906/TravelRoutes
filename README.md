@@ -19,8 +19,8 @@ A API usa um modelo de grafo para calcular a menor rota entre dois pontos com ba
 Este projeto contém as seguintes soluções:
 
 - **TravelRoutes.API**: A API que fornece os endpoints para registrar e calcular as rotas.
-- **TravelRoutes.Models**: Contém os modelos de dados utilizados pela API, como `Routes` e `RouteResponse`.
-- **TravelRoutes.Services**: Implementações de serviços, como a leitura e escrita de arquivos CSV e o cálculo do grafo.
+- **TravelRoutes.Shared**: Contém o `rotas.csv`.
+- **TravelRoutes**: Aplicação console para consulta de rotas.
 - **TravelRoutes.Tests**: Testes automatizados para garantir o funcionamento correto da API.
 
 ## Como Executar a API
